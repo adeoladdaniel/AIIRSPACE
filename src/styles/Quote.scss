@@ -1,0 +1,29 @@
+
+    .quote_page {
+        align-self: center;
+        height: 100%;
+        background-color: #ffffff;
+        width: 60rem;
+        margin: 12rem;
+        box-shadow: 6px 8px 64px 12px #e2e2e2;
+    }
+    .quote_form{
+        padding: 5rem;
+    }
+    .quote_form1{
+        margin-top: 2rem;
+    margin-bottom: 5rem;
+    }
+    .quote_input{
+        background-color:#d8d8d8;
+    }
+    .Quote_order{
+        padding: 1rem;
+    }
+    @media screen and (max-width:600px){
+        .quote_page{
+            width: 23rem;
+            margin: 1rem;
+            margin-top: 10rem;
+        }
+    }

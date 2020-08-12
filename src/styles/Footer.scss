@@ -1,0 +1,24 @@
+#foot{
+    height: 100%;
+    width: 100%;
+    background-color:#18175A;
+    margin-top: 7rem;
+}
+.foot_text{
+    color: white;
+    margin-top: 1rem;
+}
+.foot_head{
+    color: white;
+}
+.foot_social{
+    width: 2.5rem;
+    margin: 1rem;
+}
+@media screen and (max-width:600px){
+    #foot{
+    
+        width: 105%;
+       
+    }
+       }

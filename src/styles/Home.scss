@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+body{
+  font-family: 'Nunito', sans-serif;
+}
+.img_1{
+    width: 116%;
+    margin-left: 32px;
+}
+.text_1{
+    font-size: 0.9rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.but_2d{
+    background: #18175A;
+    border: solid #C7EBFF;
+    width: 11rem;
+    margin-top: 3rem;
+    transition: 0.3s;
+    border-radius: 0px;
+}
+.but_2d:hover {
+    background-color: white;
+    color: #18175A;
+    border: solid #18175A;
+  }
+  .sec_img{
+      width: 4rem;
+  }
+  .home_header{
+      margin-bottom: 12rem;
+  }
+  .section_1{
+    margin-left: 7rem;
+  }
+  .head_sec{
+    font-size: 1.2rem;
+    margin-left: 5rem;
+    margin-top: -3rem;
+    font-weight: bold;
+  }
+  .para{
+    margin-top: 3rem;
+  }
+  .section_2{
+      margin-top: 15rem;
+  }
+  .sec_text{
+    font-weight: bold;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .sec_img_1{
+    width:100%;
+  }
+.Blob{
+    background-image: url("../img/Group 40.png");
+    margin-top: -1rem;
+    height: 38rem;
+}
+.section_3{
+  background-image: url("../img/ac-installation-contractor-1024x683.jpg");
+  margin: 11rem 0rem 0rem -7rem;
+  height: 20rem;
+  background-size: cover;
+  background-position: center;
+}
+.blob_box{
+    background-color:white;
+    height: 13rem;
+    width: 14rem;
+    margin: 76px;
+    box-shadow: 5px 5px 5px 5px #e2e2e2;
+}
+.blob_box1{
+    background-color:white;
+    height: 13rem;
+    width: 14rem;
+    margin: 76px;
+    box-shadow: 5px 5px 5px 5px #e2e2e2;
+    margin-top: -2rem;
+}
+.sec_text1{
+    margin-top: 11rem;
+}
+.mini_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-top: 1rem;
+}
+.mini_text{
+  margin: 2rem 0rem 0rem 1rem;
+}
+.mini_text1{
+  font-size: 0.7rem;
+  padding: 1rem 0rem 0rem 1rem;
+  text-align: center;
+  position: absolute;
+}
+.sec_3{
+  height: 15rem;
+  background-color: white;
+  width: 39rem;
+  margin: 4rem 4rem 0rem -3rem;
+  padding: 2rem;
+}
+.section_4{
+  background-color:#18175A ;
+  margin: 4rem 0rem 0rem -7rem;
+  height: 100%;
+}
+.sec_4_text{
+color: white;
+margin-left: 3rem;
+}
+@media screen and (max-width:600px){
+  .sec_3 {
+    width: 23rem;
+    margin-left: 5rem;
+   }
+
+   .but_2d {
+    margin-top: 0rem;
+ }
+ .section_3 {
+  margin-top: 34rem;
+  background-color: white;
+  width: 132%;  
+
+
+
+
+}
+.fr {
+ margin-left: -11rem;
+
+}
+.blob_box{
+  width: 70%;
+  height: 100%;
+  margin-top: 37px;
+}
+.blob_box1{
+  width: 70%;
+  height: 100%;
+  margin-top: 37px;
+}
+.sec_text{
+  margin-top: 2rem;
+  margin-left: -6rem;
+}
+.sec_text1{
+  margin-top: -9rem;
+  margin-left: -6rem;
+  
+}
+.sec_text2{
+  
+  margin-left: -6rem;
+}
+.Blob{
+  background-image: url("../img/whatsapp.png");
+  margin-top: -1rem;
+  height: 38rem;
+}
+.mini_text1{
+  width: 12rem;
+}
+.section_1{
+
+  margin-left: 0rem;
+}
+.section_2{
+  margin-left: 7rem;
+}
+.img_1{
+  display: none;
+}
+.section_4{
+display: none;
+}
+}
+

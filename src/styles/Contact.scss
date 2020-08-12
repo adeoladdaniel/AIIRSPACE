@@ -1,0 +1,36 @@
+.contact_header{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgb(0, 0, 0)), url("../img/ac-installation-contractor-1024x683.jpg");
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+
+  
+}
+@media screen and (max-width:600px){
+    .contact_header{
+        width: 105%;
+        
+    }
+}
+
+
+.contact_header_text{
+    text-align: center;
+padding-top: 10rem;
+color: white;
+  }
+
+.contact_text{
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+.contact_box{
+    margin-top: 14rem;
+    border: solid 1px;
+    padding: 7rem;
+}
+.contact_social{
+    margin-top: 3rem;
+    width: 11%;
+    margin-left: 1rem;
+}

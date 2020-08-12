@@ -1,0 +1,52 @@
+.about_header{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgb(0, 0, 0)), url("../img/black-AC-technician.png");
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+
+  }
+  .about_header_text{
+    text-align: center;
+    padding: 12rem;
+    color: white;
+  }
+  .about_header_text1{
+      position: absolute;
+      right: 0;
+      color: white;
+      padding: 1rem;
+  }
+  .about_img{
+      width: 100%;
+      margin-top: 14rem;
+  }
+  .about_img1{
+    width: 100%;
+    margin-top: 0rem;
+}
+.about_img11{
+    width: 100%;
+    margin-top: 0rem;
+}
+.about_sec_text{
+    margin-top: 16rem;
+}
+.about_sec_text1{
+    margin-top: 3rem;
+}
+.about_section_1{
+    background-color: #efefef;
+    margin-top: 10rem;
+}
+
+  @media screen and (max-width: 600px){
+      .about_header {
+        width: 105%;
+      }
+      .about_img1{
+       display: none;
+    }
+    .about_img{
+     display: none;
+    }
+  }
