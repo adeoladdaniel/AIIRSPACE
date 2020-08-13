@@ -27,7 +27,7 @@ function Contact() {
         <Form>
         <Form.Group controlId="formBasicEmail">
 
-    <Form.Control type="email" placeholder="Name" />
+    <Form.Control type="name" placeholder="Name" />
     
   
   </Form.Group>
@@ -41,13 +41,13 @@ function Contact() {
 
   <Form.Group controlId="formBasicEmail">
   
-    <Form.Control type="email" placeholder="Address" />
+    <Form.Control type="number" placeholder="Phone-number" />
     
   
   </Form.Group>
   <Form.Group controlId="formBasicEmail">
    
-    <Form.Control type="email" placeholder="Address" />
+    <Form.Control type="text" placeholder="Address" />
     
   
   </Form.Group>
