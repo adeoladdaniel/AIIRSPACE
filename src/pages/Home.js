@@ -9,7 +9,7 @@ function Home() {
     <div className="App">
         <div className="home_header">
           <Container>              
-        <Form.Row>
+        <Row>
             <Col md={6}>
               <h5 className="text_1">
               THE BEST <br/>  SOLUTION FOR LUXURY
@@ -33,13 +33,13 @@ function Home() {
             <Col md={6}>
               <img className="img_1" src="./img/acnew 21.png"/>
             </Col>
-          </Form.Row>
+          </Row>
           </Container>
 
         </div>
         <div className="section_1">
           <Container>
-            <Form.Row>
+            <Row>
                 <Col md={4}>
                 <img className="sec_img" src="./img/configuration.png"/>
                 <h1 className="head_sec">Effective <br/>  Installation Services
@@ -68,11 +68,11 @@ function Home() {
             Effective repair services can be found at <br/> AIIRSPACE.
                 </p>
                 </Col>
-            </Form.Row>
+            </Row>
           </Container>
           <div className="section_2">
               <Container>
-                <Form.Row>
+                <Row>
                   <Col md={6}>
                   <h3 className="sec_text1">
                   Why <br/> chose us
@@ -84,7 +84,7 @@ function Home() {
                   </Col>
                 
                   <Col md={6} className="Blob">
-                  <Form.Row className="fr">
+                  <Row className="fr">
                     <Col md={6} className="mr">
                  <div className="blob_box">
                       <div >
@@ -117,10 +117,10 @@ function Home() {
                     </div>
                     
                     </Col>
-                  </Form.Row>
+                  </Row>
               
                   </Col>
-                </Form.Row>
+                </Row>
               </Container>
           </div>
           <div className="section_3">
